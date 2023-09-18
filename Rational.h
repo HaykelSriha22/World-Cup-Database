@@ -5,6 +5,5 @@ public :
     Rational ();
     Rational (long int num, long int denom);
     Rational (const Rational & rational);
-    /*zjkbjhdbc*/
 
 }
