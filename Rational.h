@@ -5,5 +5,5 @@ public :
     Rational ();
     Rational (long int num, long int denom);
     Rational (const Rational & rational);
-    // helo world
+    Rational(long int num);
 }
