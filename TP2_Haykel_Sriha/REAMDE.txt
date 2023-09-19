@@ -1,0 +1,3 @@
+2) si la fonction somme fait référence à une donnée membre privée de la classe , le compilateur génère un message d'erreur
+indiquant que num est un membre privé de Rationel et n'est pas accessible depuis la fonction add :  les membres privés d'une 
+classe en C++ ne peuvent pas être accédés directement depuis l'extérieur de cette classe

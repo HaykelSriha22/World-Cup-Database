@@ -7,10 +7,9 @@ class Rational {
 private : 
     long int num , denom ;
 public :
-    Rational ();
+    Rational ();    
     Rational (long int num, long int denom);
     Rational (const Rational & rational);
-    Rational(long int num);
     long int getNumerator() const {
         return num ;
     }
@@ -18,13 +17,14 @@ public :
         return denom ;
     }
     long int getSign() const;
-    void showRational ();
-    Rational reverse();
-    Rational power(long int pow);
-    Rational add(const Rational &r1, const Rational &r2);
-    Rational substract(const Rational &r1, const Rational &r2);
-    Rational multiply(const Rational &r1, const Rational &r2);
-    Rational divide(const Rational &r1, const Rational &r2);
+    void showRational () const;
+    Rational reverse() const;
+    Rational power(long int pow) const;
 };
+
+Rational add(const Rational &r1, const Rational &r2);
+Rational substract(const Rational &r1, const Rational &r2);
+Rational multiply(const Rational &r1, const Rational &r2);
+Rational divide(const Rational &r1, const Rational &r2);
 
 #endif
